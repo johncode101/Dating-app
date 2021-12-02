@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		559DEF5F27574EB300C0B41F /* HomeBottomControlStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559DEF5E27574EB300C0B41F /* HomeBottomControlStackView.swift */; };
 		559DEF612757537600C0B41F /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559DEF602757537600C0B41F /* TopNavigationStackView.swift */; };
+		55BC22112758BAE20008429F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC22102758BAE20008429F /* CardView.swift */; };
 		55FD97322755FF4C0085C5EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD97312755FF4C0085C5EA /* AppDelegate.swift */; };
 		55FD97342755FF4C0085C5EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD97332755FF4C0085C5EA /* SceneDelegate.swift */; };
 		55FD97362755FF4C0085C5EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD97352755FF4C0085C5EA /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		559DEF5E27574EB300C0B41F /* HomeBottomControlStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlStackView.swift; sourceTree = "<group>"; };
 		559DEF602757537600C0B41F /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
+		55BC22102758BAE20008429F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		55FD972E2755FF4C0085C5EA /* Dating app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dating app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FD97312755FF4C0085C5EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55FD97332755FF4C0085C5EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 			children = (
 				559DEF5E27574EB300C0B41F /* HomeBottomControlStackView.swift */,
 				559DEF602757537600C0B41F /* TopNavigationStackView.swift */,
+				55BC22102758BAE20008429F /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BC22112758BAE20008429F /* CardView.swift in Sources */,
 				55FD97362755FF4C0085C5EA /* ViewController.swift in Sources */,
 				55FD97322755FF4C0085C5EA /* AppDelegate.swift in Sources */,
 				559DEF5F27574EB300C0B41F /* HomeBottomControlStackView.swift in Sources */,
