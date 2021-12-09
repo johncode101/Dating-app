@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5532E19927601DAE00F0D181 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532E19827601DAE00F0D181 /* User.swift */; };
+		555654B92761D2B9001A314B /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555654B82761D2B9001A314B /* CardViewModel.swift */; };
 		559DEF5F27574EB300C0B41F /* HomeBottomControlStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559DEF5E27574EB300C0B41F /* HomeBottomControlStackView.swift */; };
 		559DEF612757537600C0B41F /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559DEF602757537600C0B41F /* TopNavigationStackView.swift */; };
 		55BC22112758BAE20008429F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC22102758BAE20008429F /* CardView.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		5532E19827601DAE00F0D181 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		555654B82761D2B9001A314B /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		559DEF5E27574EB300C0B41F /* HomeBottomControlStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlStackView.swift; sourceTree = "<group>"; };
 		559DEF602757537600C0B41F /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
 		55BC22102758BAE20008429F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		555654B62761D226001A314B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55FD97352755FF4C0085C5EA /* HomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		555654B72761D26C001A314B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				555654B82761D2B9001A314B /* CardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		559DEF5D27574E6F00C0B41F /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,12 +100,13 @@
 		55FD97302755FF4C0085C5EA /* Dating app */ = {
 			isa = PBXGroup;
 			children = (
+				555654B72761D26C001A314B /* ViewModels */,
+				555654B62761D226001A314B /* Controller */,
 				5532E19727601D4E00F0D181 /* Model */,
 				559DEF5D27574E6F00C0B41F /* Views */,
 				55FD97312755FF4C0085C5EA /* AppDelegate.swift */,
 				55FD9745275610890085C5EA /* Extensions.swift */,
 				55FD97332755FF4C0085C5EA /* SceneDelegate.swift */,
-				55FD97352755FF4C0085C5EA /* HomeController.swift */,
 				55FD973A2755FF4D0085C5EA /* Assets.xcassets */,
 				55FD973C2755FF4D0085C5EA /* LaunchScreen.storyboard */,
 				55FD973F2755FF4D0085C5EA /* Info.plist */,
@@ -172,6 +191,7 @@
 				559DEF612757537600C0B41F /* TopNavigationStackView.swift in Sources */,
 				55FD97342755FF4C0085C5EA /* SceneDelegate.swift in Sources */,
 				55FD9746275610890085C5EA /* Extensions.swift in Sources */,
+				555654B92761D2B9001A314B /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
