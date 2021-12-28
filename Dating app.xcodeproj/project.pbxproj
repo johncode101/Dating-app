@@ -32,6 +32,7 @@
 		559DEF5E27574EB300C0B41F /* HomeBottomControlStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlStackView.swift; sourceTree = "<group>"; };
 		559DEF602757537600C0B41F /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
 		55BC22102758BAE20008429F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		55C7D6712779717900107CB6 /* Dating app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Dating app.entitlements"; sourceTree = "<group>"; };
 		55FD972E2755FF4C0085C5EA /* Dating app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dating app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FD97312755FF4C0085C5EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55FD97332755FF4C0085C5EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +110,7 @@
 		55FD97302755FF4C0085C5EA /* Dating app */ = {
 			isa = PBXGroup;
 			children = (
+				55C7D6712779717900107CB6 /* Dating app.entitlements */,
 				555654B72761D26C001A314B /* ViewModels */,
 				555654B62761D226001A314B /* Controller */,
 				5532E19727601D4E00F0D181 /* Model */,
@@ -342,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dating app/Dating app.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4WXSFZLPV5;
 				INFOPLIST_FILE = "Dating app/Info.plist";
@@ -361,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dating app/Dating app.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4WXSFZLPV5;
 				INFOPLIST_FILE = "Dating app/Info.plist";
