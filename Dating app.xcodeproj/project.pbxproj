@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D5B3B3D2787FEB1003A38B1 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5B3B3C2787FEB1003A38B1 /* Bindable.swift */; };
+		0D8EE7B6278585B0004D9C42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D8EE7B5278585B0004D9C42 /* GoogleService-Info.plist */; };
 		5514CCE327751EE900CBEA0A /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5514CCE227751EE900CBEA0A /* RegistrationController.swift */; };
 		5514CCE527752A3900CBEA0A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5514CCE427752A3900CBEA0A /* CustomTextField.swift */; };
 		5532E19927601DAE00F0D181 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532E19827601DAE00F0D181 /* User.swift */; };
@@ -21,9 +23,14 @@
 		55FD973B2755FF4D0085C5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FD973A2755FF4D0085C5EA /* Assets.xcassets */; };
 		55FD973E2755FF4D0085C5EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FD973C2755FF4D0085C5EA /* LaunchScreen.storyboard */; };
 		55FD9746275610890085C5EA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD9745275610890085C5EA /* Extensions.swift */; };
+		82EE25739A180C54E8D856F6 /* Pods_Dating_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE900786BD17170E1661D43 /* Pods_Dating_app.framework */; };
+		AB2EDB43277E61D50001782A /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EDB42277E61D50001782A /* RegistrationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D5B3B3C2787FEB1003A38B1 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		0D8EE7B5278585B0004D9C42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3DE900786BD17170E1661D43 /* Pods_Dating_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dating_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5514CCE227751EE900CBEA0A /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		5514CCE427752A3900CBEA0A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		5532E19827601DAE00F0D181 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -41,6 +48,9 @@
 		55FD973D2755FF4D0085C5EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55FD973F2755FF4D0085C5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55FD9745275610890085C5EA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8E778E6817BE0EE9FA229186 /* Pods-Dating app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dating app.debug.xcconfig"; path = "Target Support Files/Pods-Dating app/Pods-Dating app.debug.xcconfig"; sourceTree = "<group>"; };
+		AB2EDB42277E61D50001782A /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		D6EE8B79ED924D3DBD5C4905 /* Pods-Dating app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dating app.release.xcconfig"; path = "Target Support Files/Pods-Dating app/Pods-Dating app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,12 +58,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82EE25739A180C54E8D856F6 /* Pods_Dating_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41C055F6D600D4FC31C7FB1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DE900786BD17170E1661D43 /* Pods_Dating_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5532E19727601D4E00F0D181 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +87,8 @@
 			children = (
 				55FD97352755FF4C0085C5EA /* HomeController.swift */,
 				5514CCE227751EE900CBEA0A /* RegistrationController.swift */,
+				AB2EDB42277E61D50001782A /* RegistrationViewModel.swift */,
+				0D5B3B3C2787FEB1003A38B1 /* Bindable.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -96,6 +117,8 @@
 			children = (
 				55FD97302755FF4C0085C5EA /* Dating app */,
 				55FD972F2755FF4C0085C5EA /* Products */,
+				C82901217F2E16739D63CD48 /* Pods */,
+				41C055F6D600D4FC31C7FB1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,8 +144,18 @@
 				55FD973A2755FF4D0085C5EA /* Assets.xcassets */,
 				55FD973C2755FF4D0085C5EA /* LaunchScreen.storyboard */,
 				55FD973F2755FF4D0085C5EA /* Info.plist */,
+				0D8EE7B5278585B0004D9C42 /* GoogleService-Info.plist */,
 			);
 			path = "Dating app";
+			sourceTree = "<group>";
+		};
+		C82901217F2E16739D63CD48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E778E6817BE0EE9FA229186 /* Pods-Dating app.debug.xcconfig */,
+				D6EE8B79ED924D3DBD5C4905 /* Pods-Dating app.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55FD97422755FF4D0085C5EA /* Build configuration list for PBXNativeTarget "Dating app" */;
 			buildPhases = (
+				533B3129365185D7407417D1 /* [CP] Check Pods Manifest.lock */,
 				55FD972A2755FF4C0085C5EA /* Sources */,
 				55FD972B2755FF4C0085C5EA /* Frameworks */,
 				55FD972C2755FF4C0085C5EA /* Resources */,
+				1203861FF97D658F5CF69DD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,10 +219,53 @@
 			files = (
 				55FD973E2755FF4D0085C5EA /* LaunchScreen.storyboard in Resources */,
 				55FD973B2755FF4D0085C5EA /* Assets.xcassets in Resources */,
+				0D8EE7B6278585B0004D9C42 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1203861FF97D658F5CF69DD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dating app/Pods-Dating app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dating app/Pods-Dating app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dating app/Pods-Dating app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		533B3129365185D7407417D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dating app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		55FD972A2755FF4C0085C5EA /* Sources */ = {
@@ -202,7 +280,9 @@
 				5532E19927601DAE00F0D181 /* User.swift in Sources */,
 				5514CCE327751EE900CBEA0A /* RegistrationController.swift in Sources */,
 				559DEF612757537600C0B41F /* TopNavigationStackView.swift in Sources */,
+				0D5B3B3D2787FEB1003A38B1 /* Bindable.swift in Sources */,
 				5514CCE527752A3900CBEA0A /* CustomTextField.swift in Sources */,
+				AB2EDB43277E61D50001782A /* RegistrationViewModel.swift in Sources */,
 				55FD97342755FF4C0085C5EA /* SceneDelegate.swift in Sources */,
 				55FD9746275610890085C5EA /* Extensions.swift in Sources */,
 				555654B92761D2B9001A314B /* CardViewModel.swift in Sources */,
@@ -341,6 +421,7 @@
 		};
 		55FD97432755FF4D0085C5EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E778E6817BE0EE9FA229186 /* Pods-Dating app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -348,6 +429,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4WXSFZLPV5;
 				INFOPLIST_FILE = "Dating app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,6 +443,7 @@
 		};
 		55FD97442755FF4D0085C5EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6EE8B79ED924D3DBD5C4905 /* Pods-Dating app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -368,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4WXSFZLPV5;
 				INFOPLIST_FILE = "Dating app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
