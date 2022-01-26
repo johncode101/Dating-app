@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D5B3B3D2787FEB1003A38B1 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5B3B3C2787FEB1003A38B1 /* Bindable.swift */; };
+		0D64A96C27A139D3001589C9 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D64A96B27A139D3001589C9 /* SettingsController.swift */; };
 		0D8EE7B6278585B0004D9C42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D8EE7B5278585B0004D9C42 /* GoogleService-Info.plist */; };
 		5514CCE327751EE900CBEA0A /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5514CCE227751EE900CBEA0A /* RegistrationController.swift */; };
 		5514CCE527752A3900CBEA0A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5514CCE427752A3900CBEA0A /* CustomTextField.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		0D5B3B3C2787FEB1003A38B1 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		0D64A96B27A139D3001589C9 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		0D8EE7B5278585B0004D9C42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3DE900786BD17170E1661D43 /* Pods_Dating_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dating_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5514CCE227751EE900CBEA0A /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				5514CCE227751EE900CBEA0A /* RegistrationController.swift */,
 				AB2EDB42277E61D50001782A /* RegistrationViewModel.swift */,
 				0D5B3B3C2787FEB1003A38B1 /* Bindable.swift */,
+				0D64A96B27A139D3001589C9 /* SettingsController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				55FD97322755FF4C0085C5EA /* AppDelegate.swift in Sources */,
 				559DEF5F27574EB300C0B41F /* HomeBottomControlStackView.swift in Sources */,
 				5532E19927601DAE00F0D181 /* User.swift in Sources */,
+				0D64A96C27A139D3001589C9 /* SettingsController.swift in Sources */,
 				5514CCE327751EE900CBEA0A /* RegistrationController.swift in Sources */,
 				559DEF612757537600C0B41F /* TopNavigationStackView.swift in Sources */,
 				0D5B3B3D2787FEB1003A38B1 /* Bindable.swift in Sources */,
